@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Бронирование</title>
+       <meta charset="utf-8">
+       
+       <link rel="stylesheet" href="css3.css">
+    </head>
+    <body>
+        <main>
+            <form action="/echo" method="post" oninput="dayscountval.value=dayscount.value">
+                <fieldset>
+                    <legend>Поиск отеля</legend>
+    <label>Название отеля</label> 
+			    <input type="search" name="search" value="Hotel Nová Ľubovňa">
+                <label>Тип номера:Štandardné číslo</label>
+                <div class="one-third-width">
+                    <label>Число</label> 
+                    <input type="number" min="1" max="31" name="day" value="17">
+                </div>
+                <div class="two-third-width">
+    			    <label>Месяц</label> 
+    			    <input type="month" name="month" value="2014-09">
+    			</div>
+    			<div class="half-width">
+    			    <label>Количество дней</label>
+    			    1 <input type="range" min="1" max="14" step="1" name="dayscount" value="14"> 14
+    			</div>
+    			<div class="half-width output-area">
+     			    <output name="dayscountval">14</output>
+    			</div>
+    			<div class="buttons">
+    				<input type="submit" value="Забронировать">
+    			</div>
+</fieldset>
+
+                
+		    </form> 
+        </main>
+        <footer class="page-footer"></footer>
+    </body>
+</html>

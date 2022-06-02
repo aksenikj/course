@@ -1,0 +1,51 @@
+h1{
+    font-family:Monotype Corsiva;
+    text-align:center;
+    font-size:50px;
+    
+}
+@font-face{
+    font-family:Monotype Corsiva;
+    src:url(monotypecorsiva.ttf)
+}
+h3{
+    font-family:Monotype Corsiva;
+    font-size:30px;
+}
+img{
+    width:790px;
+    height:400px;
+}
+body{
+    background:url("312.jpg");
+    text-align:left;
+}
+h2{
+    font-family:Monotype Corsiva;
+    text-align:center;
+    font-size:45px;
+}
+.container{
+    display:flex;
+    flex-flow:row nowrap;
+   
+}
+.neonBut{
+	width:750px;
+	height: 50px;
+	padding:10px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	bottom:10px;
+	font-family:Monotype Corsiva;
+	font-size:36px;
+	background-color: #811818 ;
+	border-radius:10px;
+	border:none;
+	color:white;
+}
+.neonBut:hover{
+	transition:1s;
+filter:drop-shadow(0 0 100px red)
+}
